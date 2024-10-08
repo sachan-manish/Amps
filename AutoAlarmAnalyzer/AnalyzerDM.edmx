@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AmpsDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="PGCIL_EVENTS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Date" Type="date" />
+          <Property Name="Time" Type="time" Precision="7" />
+          <Property Name="Message_Group" Type="nvarchar" MaxLength="50" />
+          <Property Name="Message_Text" Type="nvarchar" MaxLength="100" />
+          <Property Name="WinCC_message_text" Type="nvarchar" MaxLength="50" />
+          <Property Name="Value" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cause" Type="nvarchar" MaxLength="50" />
+          <Property Name="Additional_cause" Type="nvarchar" MaxLength="50" />
+          <Property Name="Duration" Type="float" />
+          <Property Name="Status" Type="nvarchar" MaxLength="50" />
+          <Property Name="Acknowledgment_Status" Type="nvarchar" MaxLength="1" />
+          <Property Name="Number" Type="int" />
+          <Property Name="Class" Type="nvarchar" MaxLength="50" />
+          <Property Name="Type" Type="nvarchar" MaxLength="50" />
+          <Property Name="Point_of_error" Type="nvarchar" MaxLength="1" />
+          <Property Name="Unit" Type="nvarchar" MaxLength="1" />
+          <Property Name="Value_text_group" Type="tinyint" />
+          <Property Name="Location" Type="nvarchar" MaxLength="50" />
+          <Property Name="Status_Validity" Type="nvarchar" MaxLength="50" />
+          <Property Name="ID_number" Type="nvarchar" MaxLength="1" />
+          <Property Name="Supplementary_Information" Type="nvarchar" MaxLength="50" />
+          <Property Name="T_st" Type="nvarchar" MaxLength="50" />
+          <Property Name="SICAM_Flag" Type="tinyint" />
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="AmpsDBModelStoreContainer">
+          <EntitySet Name="PGCIL_EVENTS" EntityType="Self.PGCIL_EVENTS" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AmpsDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="PGCIL_EVENTS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Date" Type="DateTime" />
+          <Property Name="Time" Type="Time" />
+          <Property Name="Message_Group" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Message_Text" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="WinCC_message_text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Value" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cause" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Additional_cause" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Duration" Type="Double" />
+          <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Acknowledgment_Status" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="Number" Type="Int32" />
+          <Property Name="Class" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Point_of_error" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="Unit" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="Value_text_group" Type="Byte" />
+          <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Validity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ID_number" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="Supplementary_Information" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="T_st" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SICAM_Flag" Type="Byte" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="AmpsDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="PGCIL_EVENTS" EntityType="Self.PGCIL_EVENTS" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AmpsDBModelStoreContainer" CdmEntityContainer="AmpsDBEntities">
+          <EntitySetMapping Name="PGCIL_EVENTS">
+            <EntityTypeMapping TypeName="AmpsDBModel.PGCIL_EVENTS">
+              <MappingFragment StoreEntitySet="PGCIL_EVENTS">
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Message_Group" ColumnName="Message_Group" />
+                <ScalarProperty Name="Message_Text" ColumnName="Message_Text" />
+                <ScalarProperty Name="WinCC_message_text" ColumnName="WinCC_message_text" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="Cause" ColumnName="Cause" />
+                <ScalarProperty Name="Additional_cause" ColumnName="Additional_cause" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Acknowledgment_Status" ColumnName="Acknowledgment_Status" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Class" ColumnName="Class" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Point_of_error" ColumnName="Point_of_error" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+                <ScalarProperty Name="Value_text_group" ColumnName="Value_text_group" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="Status_Validity" ColumnName="Status_Validity" />
+                <ScalarProperty Name="ID_number" ColumnName="ID_number" />
+                <ScalarProperty Name="Supplementary_Information" ColumnName="Supplementary_Information" />
+                <ScalarProperty Name="T_st" ColumnName="T_st" />
+                <ScalarProperty Name="SICAM_Flag" ColumnName="SICAM_Flag" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

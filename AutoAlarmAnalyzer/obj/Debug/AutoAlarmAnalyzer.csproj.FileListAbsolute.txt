@@ -70,3 +70,43 @@ C:\Users\z004fwhk\source\repos\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyze
 C:\Users\z004fwhk\source\repos\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.csproj.CopyComplete
 C:\Users\z004fwhk\source\repos\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.exe
 C:\Users\z004fwhk\source\repos\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.pdb
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\AutoAlarmAnalyzer.exe.config
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\AutoAlarmAnalyzer.exe
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\AutoAlarmAnalyzer.pdb
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\EntityFramework.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Microsoft.Owin.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Newtonsoft.Json.Bson.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Newtonsoft.Json.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Owin.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Buffers.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Memory.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Net.Http.Formatting.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Numerics.Vectors.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Web.Http.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Web.Http.Owin.dll
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\EntityFramework.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Microsoft.Owin.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Newtonsoft.Json.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Newtonsoft.Json.Bson.pdb
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\Newtonsoft.Json.Bson.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Buffers.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Memory.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Net.Http.Formatting.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Numerics.Vectors.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Web.Http.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\bin\Debug\System.Web.Http.Owin.xml
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.csprojAssemblyReference.cache
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.csproj.CoreCompileInputs.cache
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.csproj.CopyComplete
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.exe
+D:\Personal GIT\New folder\Amps\AutoAlarmAnalyzer\obj\Debug\AutoAlarmAnalyzer.pdb

@@ -13,6 +13,8 @@ namespace AutoAlarmAnalyzer
         [Route("api/simple")]
         public IEnumerable<string> Get()
         {
+            AmpsDBEntities1 ampsDBEntities1 = new AmpsDBEntities1();
+
             return data;
         }
 
