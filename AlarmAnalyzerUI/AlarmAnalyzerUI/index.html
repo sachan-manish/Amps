@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Alarm Analyzer Dashboard - Siemens Theme</title>
+    <!-- Include ECharts library -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+    <!-- Include PapaParse to parse CSV -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar with Siemens Logo -->
+    <div class="navbar">
+        <span class="navbar-logo">SIEMENS</span>
+        <h2 style="padding-right: 10px;">Alarm Analyzer Dashboard</h2>
+        <input type="file" id="csvFileInput" accept=".csv" />
+    </div>
+
+    <!-- Main Container with Heatmap, Cleared Chart, Empty Div, Trip Chart -->
+    <div class="main-container" id="mainContainer">
+        <div id="heatmapContainer"></div> <!-- Heatmap Div -->
+        <div id="clearedChart">Cleared Alarms Percentage</div> <!-- Cleared Chart Div -->
+        <div id="emptyDiv">Total number of Alarms</div> <!-- Empty Div -->
+        <div id="tripChart">Trip Alarm Bar Chart</div> <!-- Tripped Chart Div -->
+    </div>
+
+    <!-- Slideshow Container for Substation Charts -->
+    <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <div id="substation1" class="substation-chart">Substation 1</div>
+            <div id="substation2" class="substation-chart">Substation 2</div>
+            <div id="substation3" class="substation-chart">Substation 3</div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div id="substation4" class="substation-chart">Substation 4</div>
+            <div id="substation5" class="substation-chart">Substation 5</div>
+            <div id="substation6" class="substation-chart">Substation 6</div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+            <div id="substation7" class="substation-chart">Substation 7</div>
+            <div id="substation8" class="substation-chart">Substation 8</div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- Link to JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
