@@ -50,7 +50,7 @@ body {
 
 /* Main Container with Grid Layout */
 .main-container {
-    display: grid;
+    display: none;
     grid-template-columns: 60% 15% 15%;
     grid-template-rows: auto auto;
     gap: 50px;
@@ -63,17 +63,16 @@ body {
     grid-column: 1;
     grid-row: span 2;
     width: 100%;
-    height: 600px;
+    height: 610px;
     background-color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-
 }
 
 /* Cleared and Empty Divs */
 #clearedChart {
     width: 100%;
-    height: 200px;
+    height: 260px;
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
@@ -86,14 +85,13 @@ body {
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-
     transition: transform 0.3s ease-in-out;
 }
 
 /* Tripped Chart */
 #tripChart {
     height: 300px;
-    width: 200%;
+    width: 610px;
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
@@ -104,7 +102,8 @@ body {
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    margin-top: 20px;
+    padding-top: 20px;
+    display: none;
 }
 /* Substation Slides */
 .slide {
@@ -118,13 +117,29 @@ body {
         justify-content: space-around;
     }
 
+.all-substation-container {
+    display: none;
+    background-color: #b8dcff;
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tree-map, .india-map {
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 0px;
+}
+
 .substation-chart {
-    width: 550px;
-    height: 350px;
+    width: 800px;
+    height: 500px;
     background-color: #b8dcff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    padding: 15px;
     transition: transform 0.3s ease-in-out;
 }
 
